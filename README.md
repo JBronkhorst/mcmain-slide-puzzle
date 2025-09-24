@@ -11,6 +11,9 @@ Mcmain Slide Puzzle is a **4x4 sliding puzzle game** built with Angular.
 - The goal is to rearrange the tiles to restore the original image.  
 - When the puzzle is solved, a success message is displayed.  
 
+<img width="394" height="475" alt="image" src="https://github.com/user-attachments/assets/c1640d65-1d37-41cd-84d8-db5a93ae9c1b" />
+
+
 ## Run project locally
 
 Requires Node (LTS recommended, e.g. Node 18+) and npm.
