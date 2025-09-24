@@ -1,0 +1,7 @@
+<div class="board">
+    <div *ngFor="let tile of tiles; let i = index" (click)="move(i)">
+        <app-puzzle-tile [value]="tile" [index]="i" [size]="size" />
+    </div>
+</div>
+<div class="message" *ngIf="tiles | puzzleSolved">Puzzel opgelost!</div>
+  

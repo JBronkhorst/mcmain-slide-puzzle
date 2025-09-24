@@ -1,0 +1,5 @@
+<div class="tile" [class.empty]="value.id === 0"
+     [style.background-position]="backgroundPosition"
+     [style.background-image]="value.id !== 0 ? 'url(assets/logo.png)' : 'none'">
+  <span *ngIf="value.id !== 0" class="label">{{ value.id }}</span>
+</div>

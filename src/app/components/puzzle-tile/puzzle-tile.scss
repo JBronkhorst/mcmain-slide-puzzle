@@ -1,0 +1,25 @@
+.tile {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.tile.empty {
+    background: #ddd;
+}
+
+.label {
+    position: absolute;
+    bottom: 4px;
+    right: 6px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 2px 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
