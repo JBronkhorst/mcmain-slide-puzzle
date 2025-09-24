@@ -17,7 +17,7 @@ Requires Node (LTS recommended, e.g. Node 18+) and npm.
 
 1. Clone repository:
 ```bash
-   git clone https://github.com/j.bronkhorst/mcmain-slide-puzzle.git
+   git clone https://github.com/JBronkhorst/mcmain-slide-puzzle.git
    cd mcmain-slide-puzzle
 ```
 
